@@ -8,11 +8,11 @@ int main(void)
     scanf("%d", &no);
 
     if (no == 0)
-       { puts("绝对值为0\n");}
+    { puts("绝对值为0\n");}
     else if (no > 0)
-        {printf("绝对值位%d\n",no);}
+    {printf("绝对值位%d\n", no);}
     else if (no < 0)
-       {printf("绝对值位%d\n",-no);}
+    {printf("绝对值位%d\n", -no);}
 
     return 0;
 }

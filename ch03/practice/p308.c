@@ -1,5 +1,5 @@
 #include <stdio.h>
-int main(int argc,char const *rgv[])
+int main(int argc, char const *rgv[])
 {
     int n1, n2;
 
@@ -8,12 +8,12 @@ int main(int argc,char const *rgv[])
     printf("整数2："); scanf("%d", &n2);
     if (n1 > n2)
     {
-    	printf("差是%d\n",n1-n2 );
-     }
-     else
-     	{printf("差是%d\n",n2-n1 );}
+        printf("差是%d\n", n1 - n2 );
+    }
+    else
+    {printf("差是%d\n", n2 - n1 );}
 
-    
+
 
     return 0;
 }
